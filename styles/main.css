@@ -203,7 +203,7 @@ body {
     color: rgb(255, 255, 255);
 
     font-family: inherit;
-    font-size: .85rem;
+    font-size: 1.1rem;
 }
 
 .chat-input:focus {
@@ -213,6 +213,5 @@ body {
 .chat-input::placeholder {
     color: rgba(255, 255, 255, 0.5);
     padding: 0rem;
-    height: 100%;
-    width: 100%;
+    font-size: 1.1rem;
 }

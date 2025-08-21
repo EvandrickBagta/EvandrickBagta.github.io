@@ -33,7 +33,6 @@
     </main>
     <script>
 const prompts = [
-  "Ask our AI Budtender anything...",
   "What strains are best for sleep?",
   "How do I use The Plugg?",
   "Can you recommend a product?",
@@ -51,9 +50,9 @@ function typePrompt() {
     input.placeholder = currentPrompt.slice(0, charIndex + 1);
     charIndex++;
     if (charIndex === currentPrompt.length) {
-      setTimeout(() => { deleting = true; typePrompt(); }, 1500);
+      setTimeout(() => { deleting = true; typePrompt(); }, 1450);
     } else {
-      setTimeout(typePrompt, 50);
+      setTimeout(typePrompt, 30);
     }
   } else {
     input.placeholder = currentPrompt.slice(0, charIndex - 1);
@@ -63,7 +62,7 @@ function typePrompt() {
       promptIndex = (promptIndex + 1) % prompts.length;
       setTimeout(typePrompt, 300);
     } else {
-      setTimeout(typePrompt, 30);
+      setTimeout(typePrompt, 35);
     }
   }
 }
