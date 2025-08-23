@@ -54,11 +54,18 @@ body {
     z-index: 100;
 }
 
+
+.nav-buttons-group {
+    display: flex;
+    gap: 1rem;
+    margin-right: 5rem;
+    align-items: center;
+}
+
 .nav-brand {
     display: flex;
     flex-direction: row;
     margin-left: 1rem;
-    gap: .1rem;
 }
 
 .nav-logo {
@@ -73,8 +80,7 @@ body {
 }
 
 .nav-button {
-    padding: .5rem 1.5rem;
-    margin: 0rem 5rem 0rem 0rem;
+    padding: .5rem 1rem;
     background: transparent;
     border: 2px solid #32CD32;
     color: white;
