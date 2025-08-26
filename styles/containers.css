@@ -1,0 +1,27 @@
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.info-card {
+  width: 17rem;
+  height: 18rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 2rem;
+
+  background-color: rgb(255, 208, 107);
+}
+
+.info-card img {
+  padding-bottom: 13rem;
+}
+
+.info-card h3 {
+  font-size: 1rem;
+  font-weight: 100;
+}
